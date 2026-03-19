@@ -10,9 +10,9 @@ In this lab, you will deploy your first public-facing resource in Azure. Instead
 [ ] A basic text editor (Notepad, TextEdit, or VS Code).
 4. Lab Variables (Naming Convention)
 Use these names to ensure consistency.
-Resource Group: rg-lab01-[yourname]
+Resource Group: rg-lab01-enite
 Location: East US
-Storage Account Name: stlab01[yourname]
+Storage Account Name: stlab01enite
 Note: Storage account names must be globally unique, all lowercase, and no special characters.
 5. Step-by-Step Instructions
 Phase 1: Create the Resource Group
@@ -21,15 +21,15 @@ Search for Resource Groups in the top search bar.
 Click + Create.
 Basics Tab:
 Subscription: Select your subscription.
-Resource Group: Enter rg-lab01-[yourname].
+Resource Group: Enter rg-lab01-enite.
 Region: Select (US) East US.
 Click Review + create -> Create.
 Phase 2: Create the Storage Account
 Search for Storage accounts in the search bar.
 Click + Create.
 Basics Tab:
-Resource Group: Select rg-lab01-[yourname].
-Storage account name: stlab01[yourname] (e.g., stlab01jhante). Remember: All lowercase, numbers and letters only.
+Resource Group: Select rg-lab01-enite.
+Storage account name: stlab01enite Remember: All lowercase, numbers and letters only.
 Region: (US) East US.
 Performance: Standard.
 Redundancy: Locally-redundant storage (LRS). This is the cheapest option for labs.
@@ -43,7 +43,7 @@ Static website: Switch from "Disabled" to Enabled.
 Index document name: Enter index.html.
 Error document path: Enter 404.html (Optional, but good practice).
 Click Save.
-CRITICAL: Once saved, a Primary endpoint URL will appear (e.g., https://stlab01jhante.z13.web.core.windows.net/). Copy this URL. This is your website's address.
+CRITICAL: Once saved, a Primary endpoint URL will appear. Copy this URL. This is your website's address.
 Phase 4: Create Your Website File
 Open your text editor on your computer.
 Paste the following simple HTML code:
@@ -59,7 +59,7 @@ Paste the following simple HTML code:
 <body>
     <h1>Hello from the Cloud!</h1>
     <p>This site is hosted on Azure Blob Storage.</p>
-    <p>Deployed by: [Your Name]</p>
+    <p>Deployed by: Enite Uviovo </p>
 </body>
 </html>
 
@@ -87,7 +87,7 @@ Fix: Storage names must be unique across all of Azure, not just your account. Ad
 7. Clean Up Resources
 Important: Always clean up to keep your cloud environment tidy.
 Go to Resource Groups.
-Click rg-lab01-[yourname].
+Click rg-lab01-enite.
 Click Delete resource group.
 Type the name to confirm.
 Click Delete.
